@@ -7036,7 +7036,7 @@
 
     <!-- Description of feature to change color setting for the display [CHAR LIMIT=NONE] -->
     <string name="picture_color_mode_desc">Use sRGB</string>
-	
+
     <!-- ReOS version -->
     <string name="re_version">ReOS version</string>
     <string name="re_version_default">Unknown</string>
@@ -7045,5 +7045,8 @@
     <string name="debug_LAN_category">LAN Settings</string>    
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
-	
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 </resources>
