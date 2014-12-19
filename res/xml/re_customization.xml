@@ -12,7 +12,26 @@
                 android:key="expanded_desktop"
                 android:title="@string/power_menu_expanded_desktop"
                 android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+    </PreferenceCategory>
+	
+    <PreferenceCategory
+        android:key="re_briefingwidget"
+        android:title="@string/customization_category_briefingwidget" >
 		
+    <com.android.settings.preference.SystemSettingSwitchPreference
+        android:key="status_bar_show_weather"
+        android:title="@string/briefingwidget_show_weather_title"
+        android:summary="@string/briefingwidget_show_weather_summary"
+        android:defaultValue="false" />
+
+    <PreferenceScreen
+        android:key="re_briefingwidget_settings"
+        android:title="@string/briefingwidget_title"
+        android:summary="@string/briefingwidget_summary">
+            <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.re.briefingwidget"
+        android:targetClass="com.re.briefingwidget.preference.Preferences" />
+    	</PreferenceScreen>
     </PreferenceCategory>
 	
 </PreferenceScreen>
