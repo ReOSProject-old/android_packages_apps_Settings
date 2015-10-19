@@ -40,4 +40,9 @@
 
     <!-- Whether none security option is hide or not  (country specific). -->
     <bool name="config_hide_none_security_option">false</bool>
+	
+    <!-- Default value for battery_light_enabled preference -->
+    <bool name="def_battery_light_enabled">true</bool>
+    <!-- Default value for battery light pulse -->
+    <bool name="def_battery_light_pulse">true</bool>
 </resources>
