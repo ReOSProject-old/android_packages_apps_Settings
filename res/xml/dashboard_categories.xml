@@ -164,6 +164,14 @@
             android:id="@+id/personal_section"
             android:key="@string/category_key_personal"
             android:title="@string/header_category_personal" >
+			
+        <!-- Customization -->
+        <dashboard-tile
+                android:id="@+id/customization_settings"
+                android:title="@string/customization_settings_title"
+                android:fragment="com.android.settings.re.CustomizationSettings"
+                android:icon="@drawable/ic_settings_customization"
+                />
 
         <!-- Location -->
         <dashboard-tile
