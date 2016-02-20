@@ -1401,7 +1401,6 @@
         <item>0</item>
     </string-array>
 
-<<<<<<< HEAD
     <string-array name="expanded_desktop_entries" translatable="false">
         <item>@string/expanded_hide_both</item>
         <item>@string/expanded_hide_status</item>
@@ -1412,6 +1411,7 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
 
     <!-- Values for the notification light pulse spinners -->
     <string-array name="notification_pulse_length_entries" translatable="false">
