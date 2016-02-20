@@ -7051,6 +7051,7 @@
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 	
     <string name="customization_settings_title">Customization</string>
+    <string name="customization_category_interface">Interface</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
